@@ -1,0 +1,25 @@
+{
+  "name": "get-value-safely",
+  "version": "1.0.0",
+  "description": "Get nested value safely",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsambor/get-value-safely.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Nested",
+    "Value",
+    "Safely"
+  ],
+  "author": "Vasile Sambor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vsambor/get-value-safely/issues"
+  },
+  "homepage": "https://github.com/vsambor/get-value-safely#readme"
+}
