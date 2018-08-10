@@ -18,7 +18,7 @@
  *
  * @returns {*} - the deepest property value or the fallback.
  */
-exports.getValueSafely = function (object, path, fallback, fallbackOnFalsy) {
+module.exports = function (object, path, fallback, fallbackOnFalsy) {
     if (!object || !path) {
         return fallback;
     }

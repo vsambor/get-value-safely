@@ -1,4 +1,4 @@
-const get = require('./main').getValueSafely;
+const get = require('./get-value-safely');
 
 // Test object.
 const obj = {
