@@ -20,7 +20,7 @@ $ npm i get-value-safely
 ### Import
 
 ```
-const get = require('./get-value-safely');
+const get = require('get-value-safely');
 ```
 
 ### Use

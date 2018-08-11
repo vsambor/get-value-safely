@@ -1,6 +1,6 @@
 {
   "name": "get-value-safely",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get nested value safely",
   "main": "main.js",
   "scripts": {
