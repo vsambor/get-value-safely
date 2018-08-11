@@ -1,6 +1,5 @@
 # get-value-safely
-JavaScript get nested values safely.
-
+JavaScript mini-library to get nested values safely.
 
 Assures that a value of a child chain property is returned without runtime errors.
 
@@ -12,4 +11,43 @@ and the fallbackOnFalsy flag is set to <TRUE>.
 
 Arrays could be checked as well by passing the index in the path; ex: getValue(arr, '0.obj')
 
-Note: if object or path params are not provided, the fallback is returned.
+### Install
+
+```
+$ npm -i get-value-safely`
+```
+
+### Import
+
+```
+const get = require('./get-value-safely');
+```
+
+### Use
+
+```
+// Test object.
+const obj = {
+  c: {
+    a: 2,
+    b: {
+      c: [1, 2, 3, {a: 15, b: 10}, 15]
+    },
+    c: undefined,
+    d: null
+  },
+  d: ''
+};
+
+### Usage Examples:
+get(null, 'c.a', 'fallback');
+
+get(obj, 'c.d', 'fallback');
+
+get(obj, 'c.c', 'fallback', true);
+
+get(obj, 'c.b.c.2');
+
+get(obj, 'c.b.c.3.a');
+
+```
