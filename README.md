@@ -14,7 +14,7 @@ Arrays could be checked as well by passing the index in the path; ex: getValue(a
 ### Install
 
 ```
-$ npm -i get-value-safely`
+$ npm i get-value-safely`
 ```
 
 ### Import
