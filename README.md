@@ -39,7 +39,6 @@ const obj = {
   d: ''
 };
 
-### Usage Examples:
 get(null, 'c.a', 'fallback');
 
 get(obj, 'c.d', 'fallback');
