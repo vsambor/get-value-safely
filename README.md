@@ -1,4 +1,4 @@
-# get-value-safely
+# get-value-safely ![JS](https://img.shields.io/badge/ES-6-green.svg) ![npm](https://img.shields.io/badge/npm-5.6.x-blue.svg) 
 JavaScript mini-library to get nested values safely.
 
 Assures that a value of a child chain property is returned without runtime errors.
