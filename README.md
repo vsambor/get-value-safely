@@ -7,9 +7,9 @@ If the checked property does not exist in the provided object or one of the chil
 is undefined, then it returns the provided fallback value.
 
 The fallback can be also returned if the checked property is falsy (i.e. undefined, null, false, 0, '', etc.)
-and the fallbackOnFalsy flag is set to <TRUE>.
+and the fallbackOnFalsy flag is set to `true`.
 
-Arrays could be checked as well by passing the index in the path; ex: getValue(arr, '0.obj')
+Arrays could be checked as well by passing the index in the path; ex: getValue(arr, '0.obj.a')
 
 ### Install
 
@@ -50,3 +50,5 @@ get(obj, 'c.b.c.2');
 get(obj, 'c.b.c.3.a');
 
 ```
+
+For more examples please check the `test.js` file.
