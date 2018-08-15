@@ -56,18 +56,7 @@ get(obj, 'c.b.c.3.a');
 Check `test.js` to see the full source.
 
 ```
-// Test object.
-const obj = {
-  c: {
-    a: 2,
-    b: {
-      c: [1, 2, 3, {a: 15, b: 10}, 15]
-    },
-    c: undefined,
-    d: null
-  },
-  d: ''
-};
+// Same test object.
 
 assert('Test that null object returns fallback', 'fallback' === get(null, 'c.d.d', 'fallback'));
 
